@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="<%=request.getContextPath()%>/member/list.do">list.do 이동!</a>
+	<a href="<%=request.getContextPath()%>/board/list.do">글목록 이동</a>
+	<br>
+	<a href="<%=request.getContextPath()%>/member/list.do">회원 목록 이동!</a>
 </body>
 </html>
